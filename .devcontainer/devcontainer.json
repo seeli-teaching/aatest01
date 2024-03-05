@@ -11,9 +11,7 @@
 
 	// Welcher Command soll nach dem Start des Containers ausgeführt werden.
   // Hier starten wir die API
-	"postAttachCommand": {
-		"server": "uvicorn main:app --host 0.0.0.0 --reload"
-	},
+
 
   // Unsere API läuft auf Port 8000 - wir geben ihr noch ein Label und wollen diese Webadresse
   // in einem VS-Code internen Browser öffnen.
