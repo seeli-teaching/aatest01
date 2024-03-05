@@ -23,7 +23,8 @@ class Word(BaseModel):
 word_records = [
     Word(word="Apfel"),
     Word(word="Auto"),
-    Word(word="Berlin")]
+    Word(word="Berlin"),
+    Word(word="Katze") ]
 
 
 @app.get("/words")
